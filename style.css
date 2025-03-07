@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #0e3fd3, #1521a7);
+    color: rgb(107, 4, 4);
+    margin: 0;
+    padding: 0;
+}
+
+#name{
+    font-weight: bold;
+}
+h1, h2, h3, p {
+    margin: 9px 0;
+}
+
+header {
+    padding: 30px 20px;
+}
+
+.wedding-info {
+    background: rgba(0, 229, 255, 0.2);
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 0px 0px 20px rgb(176, 28, 28);
+}
+
+.countdown {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    animation: backgroundAnimation 10s ease-in-out infinite; /* Background animation */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    
+}
+/* @keyframes for background animation */
+@keyframes backgroundAnimation {
+    0% {
+        background: linear-gradient(to right, #15b43f, #089c86);
+    }
+    50% {
+        background: linear-gradient(to right, #6a11cb, #2575fc);
+    }
+    100% {
+        background: linear-gradient(to right, #b04f17, #fe7b97);
+    }
+}
